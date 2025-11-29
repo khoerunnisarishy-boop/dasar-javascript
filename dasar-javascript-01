@@ -1,0 +1,37 @@
+let nama = 'Rishy Khoerunnisa' // tipe string
+let usia = 18 //tipe integer number
+let tinggiBadan = 154 // tipe double float
+let makananFavorit 
+let pacar = null
+
+if (pacar == null) {
+    pacar = 'belum punya'
+} else {
+    pacar = 'udah punya'
+}
+
+//operator
+let saldoAwal = 10000
+let saldoTambahan = 50000
+const saldoAkhir = saldoAwal + saldoTambahan
+
+
+// switch (pacar) {
+//     case 1 :
+//         pacar ='udah punya pacar'
+//     break
+//     case 2 : 
+//         pacar = 'aku punya selingkuhan'
+//     break
+//     default :
+//         pacar = 'aku jomblo'
+//     break
+    
+// }
+
+alert(
+    `hai, namaku ${nama} aku berusia ${usia} tinggi badanku sekitar ${tinggiBadan}, lalu makanan favoritku ${makananFavorit} dan pacarku ${pacar}, `
+    )
+    
+alert(
+    `aku punya saldo sebesar Rp.${saldoAwal} lalu ayahku mengirim Rp.${saldoTambahan}, jadi jumlah semua uangku adalah Rp.${saldoAkhir}`)
