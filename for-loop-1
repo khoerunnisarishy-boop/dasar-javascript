@@ -1,0 +1,8 @@
+// for loop
+const namaGuru = ['alya', 'cici', 'opi'] // array
+
+for (let  i = 0 ; i <= namaGuru ; i++) {
+    console.log(namaGuru[0])
+}
+
+//i++ = (i = i + 1)
