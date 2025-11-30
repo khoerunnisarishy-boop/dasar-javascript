@@ -1,0 +1,6 @@
+//array
+var namaGuru = ['siti', 'jamal', 'rara']
+namaGuru.push('rishy', 'nisa') //urutan tuh disebutnya index dalam array
+namaGuru.shift() //buat ngilangin array urutan 0
+namaGuru.pop() //buat ngilangin array urutan terakhir
+alert(namaGuru)
