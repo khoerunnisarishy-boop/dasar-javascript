@@ -2,7 +2,19 @@
 const namaGuru = ['alya', 'cici', 'opi'] // array
 
 for (let  i = 0 ; i <= namaGuru ; i++) {
-    console.log(namaGuru[0])
+    console.log(namaGuru[i])
 }
 
+alert(namaGuru)
+
 //i++ = (i = i + 1)
+
+
+//while
+// for loop
+
+let i = 0
+while(i < 20) {
+    i++
+    console.log ('Rishy Cantik')
+}
