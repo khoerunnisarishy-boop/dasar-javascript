@@ -1,0 +1,11 @@
+let saldoAwal = ('Masukan saldo awal: ');
+let saldoTambahan = ('Masukan saldo tambahan');
+
+saldoAwal = 28000
+saldoTambahan = 100000
+
+let saldoAkhir = saldoAwal + saldoTambahan;
+
+alert(`Saldo akhir kamu adalah: Rp.` + saldoAkhir);
+
+//apa bedanya tanda ` dengan "??
