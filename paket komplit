@@ -1,0 +1,41 @@
+//string
+let namaSiswa = ("Ahmad Nurul Fajar")
+let kelas = 12
+let sekolah = ('SMK Bina Bakti')
+let nilaiTugas = 89
+
+//perulangan
+if (nilaiTugas >= 90) {
+    console.log ('Istimewa')
+} else if ( nilaiTugas >= 75) {
+    console.log ('Bagus')
+} else if (nilaiTugas <=75) {
+    console.log ('Perlu belajar lagi')
+}
+
+//for loop
+for (let i = 2 ; i <= 20 ; i++) {
+    console.log(i)
+}
+
+//for while
+let i = 1
+while (i <= 3) {
+    console.log ('Semangat Belajarnya')
+    i++
+}
+
+function hitungRataRata (a,b,c) {
+    return (a+b+c) / 3
+}
+ let hasil = hitungRataRata(75,90,70)
+ console.log('Rata rata', hasil)
+ 
+ //array
+ let mataPelajaran = ['matematika', 'fisika', 'biologi', 'bahasa', 'ppkn']
+ console.log('Mata Pelajaran pertama', mataPelajaran[1])
+ console.log('Jumlah mata pelajaran', mataPelajaran.length)
+ 
+ 
+
+alert(`halo, saya ${namaSiswa}, dari kelas ${kelas}, asal sekolah ${sekolah}, hasil nilai tugas ${nilaiTugas}`)
